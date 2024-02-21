@@ -2,7 +2,7 @@ FROM python:3.12.2-bookworm
 
 WORKDIR /app
 
-COPY /.docker/streamlit/requirements.txt .
+COPY /src/requirements.txt .
 
 RUN apt-get update && \
     apt-get -y upgrade && \
