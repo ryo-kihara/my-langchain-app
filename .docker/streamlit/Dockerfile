@@ -2,7 +2,7 @@ FROM python:3.12.2-bookworm
 
 WORKDIR /app
 
-COPY /src/requirements.txt .
+COPY /requirements.txt .
 
 RUN apt-get update && \
     apt-get -y upgrade && \
