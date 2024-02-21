@@ -29,16 +29,15 @@ docker compose exec streamlit streamlit run main.py
 
 ## Usage
 
-- Start streamlit server
+### Start streamlit server
 
 ```bash
 docker compose exec streamlit streamlit run main.py
 ```
 
-- Install Library
+### Install Library
 
 1. write `requirements.txt`
-
 2. Install library
 
 ```bash
